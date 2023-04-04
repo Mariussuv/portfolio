@@ -1,10 +1,5 @@
-import AboutSection from '@/pages/AboutSection'
-import MTopNav from '@/components/mComponents/MTopNav'
-import MTypography from '@/components/mComponents/MTypography'
 import Head from 'next/head'
-import Image from 'next/image'
 import MainPage from './MainPage'
-import background from '../../public/background.jpg'
 
 export default function Home() {
   return (

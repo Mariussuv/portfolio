@@ -1,4 +1,3 @@
-import Image from "next/image";
 import MTypography from "../mComponents/MTypography";
 
 export interface hobbyProps{

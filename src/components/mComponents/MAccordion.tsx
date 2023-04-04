@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import { containerProps, iconType } from "../types";
-import exp from "constants";
 import MTypography from "./MTypography";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import MIcon from "./MIcon";
 
 export default function MAccordion({label, expanded = false, children}: containerProps){

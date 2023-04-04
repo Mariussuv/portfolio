@@ -1,11 +1,5 @@
-import MTopNav from "../components/mComponents/MTopNav";
 import MTypography from "../components/mComponents/MTypography";
-import Image from "next/image";
-import pp from '../../public/pp.jpg'
 import MAccordion from "@/components/mComponents/MAccordion";
-import MButton from "@/components/mComponents/MButton";
-import cows from "../../public/illustrations/cows.jpg"
-import ProjectCard from "@/components/custom/ProjectCard";
 
 
 export default function ExperienceSection(){

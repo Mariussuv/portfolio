@@ -1,4 +1,5 @@
 import { iconProps, iconType } from '../types'
+import React from 'react';
 
 import PersonIcon from '@mui/icons-material/Person';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
@@ -8,10 +9,6 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-
-
-import React from 'react';
-
 
 export default function MIcon({type, variant = 'primary'} : iconProps ){
     const cnExtension = `text-${variant}`
