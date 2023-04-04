@@ -2,10 +2,10 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/AboutSection": "pages/AboutSection.html",
-  "/ExperienceSection": "pages/ExperienceSection.html",
-  "/MainPage": "pages/MainPage.html",
-  "/_error": "pages/_error.js",
   "/api/hello": "pages/api/hello.js",
+  "/MainPage": "pages/MainPage.html",
+  "/ExperienceSection": "pages/ExperienceSection.html",
   "/": "pages/index.html",
+  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }
