@@ -38,8 +38,22 @@ export default function ExperienceSection(){
                     </div>
                 </MAccordion>
                 <MAccordion label="job experience">
-                    <MTypography type="caption" text="Bitmesh AS"/>
-                    <MTypography type="caption" text="Capgemini"/>
+                    <div className=" w-full bg-bg-white rounded-md flex" >
+                        <div className="w-1/3 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80')] bg-no-repeat bg-cover rounded-l-md p-2 justify-center">
+                        </div>
+                        <div className="w-2/3 p-2">
+                            <MTypography type='subtitle' variant="primary" text='Bitmesh AS' />
+                            <MTypography type='text' text="Bitmesh provides a collection of services, enabling rapid IoT application development." />
+                        </div>
+                    </div>
+                    <div className=" w-full bg-bg-white rounded-md flex" >
+                        <div className="w-1/3 bg-[url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80')] bg-no-repeat bg-cover rounded-l-md p-2 justify-center">
+                        </div>
+                        <div className="w-2/3 p-2">
+                            <MTypography type='subtitle' variant="primary" text='Capgemini' />
+                            <MTypography type='text' text="Capgemini is a multinational information technology (IT) services and consulting company." />
+                        </div>
+                    </div>
                 </MAccordion>
                 <MAccordion label="projects">
                     <div className=" w-full bg-bg-white rounded-md flex" >
