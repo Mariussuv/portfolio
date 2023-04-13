@@ -1,6 +1,6 @@
 import MTypography from "../components/mComponents/MTypography";
 import MAccordion from "@/components/mComponents/MAccordion";
-
+import CertCard from "@/components/custom/CertCard";
 
 export default function ExperienceSection(){
     return(
@@ -72,6 +72,8 @@ export default function ExperienceSection(){
                     
                 </MAccordion>
                 <MAccordion label="certifications" >
+                    <CertCard name="Azure Fundamentals" issuedBy="Microsoft" illustration="https://miro.medium.com/v2/resize:fit:1000/1*EnlxKqKhibp-p9fEzvfrlA.png" />
+                    <CertCard name="Certified React Developer" issuedBy="W3Schools" illustration="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" />
 
                 </MAccordion>
 

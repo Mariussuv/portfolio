@@ -4,6 +4,7 @@ import ExperienceSection from "./ExperienceSection";
 import MTopNav from "@/components/mComponents/MTopNav";
 import MButton from "@/components/mComponents/MButton";
 import { iconType } from "@/components/types";
+import ContactSection from "./ContactSection";
 
 export default function MainPage(){
     const [tab, setTab] = useState(0)
@@ -21,6 +22,9 @@ export default function MainPage(){
             }
             {tab == 1 &&
                 <ExperienceSection />
+            }
+            {tab == 2 &&
+                <ContactSection />
             }
         </div>
             {/* <BottomNavigator changeTab={setTab}/> */}
