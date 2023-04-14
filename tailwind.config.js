@@ -12,13 +12,13 @@ module.exports = {
       }
     },
     colors: {
-      primary: "#76A1A7",
+      primary: "#7B586B",
       primaryhighlight: "#60acc4",
-      secondary: "#D9C5BC",
+      secondary: "#FFFAFA",
       bg:{
-        primary: '#107980',
-        secondary: '#B6ADAF',
-        white: '#EDE1CF'
+        primary: '#453C41',
+        secondary: '#1D0F0F',
+        white: '#D4DBE2'
       }
     },
   },

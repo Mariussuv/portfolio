@@ -3,7 +3,8 @@ import MainPage from './MainPage'
 
 export default function Home() {
   return (
-    <div className=" fixed bg-[url('../../public/background2.jpg')] bg-cover h-screen w-screen bg-center bg-no-repeat bg-fixed">
+    // <div className=" fixed bg-[url('../../public/background2.jpg')] bg-cover h-screen w-screen bg-center bg-no-repeat bg-fixed">
+    <div className=" fixed bg-gradient-to-br from-bg-secondary to-primary h-screen w-screen">
       <Head>
         <title>Portfolio</title>
         <meta name="description" content="Marius Portfolio Test App" />

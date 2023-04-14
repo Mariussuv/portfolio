@@ -19,6 +19,6 @@ export default function CertCard({name, issuedBy, illustration} : certCardProps)
                 <MTypography type='caption' text={issuedBy} />
 
             </div>
-                    </div>
+        </div>
     )
 }

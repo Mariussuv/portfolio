@@ -17,8 +17,15 @@ export interface containerProps{
 
 export interface typograhpyProps{
     type: 'title' | 'subtitle' | 'header' | 'caption' | 'text'
-    text?: string
+    text?: string | number
     variant?: 'primary' | 'secondary'
+}
+
+export interface ListablePropertyProps{
+    name?: string
+    icon?: iconType
+    value?: string | number
+    link?: string
 }
 
 export interface iconProps{
@@ -33,5 +40,6 @@ export enum iconType {
     right,
     profile,
     experience,
-    contact
+    contact,
+    linkedIn,
 }
