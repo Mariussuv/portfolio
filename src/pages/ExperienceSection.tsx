@@ -58,22 +58,12 @@ export default function ExperienceSection(){
 
                         </div>
                         <div className="w-1/2 bg-[url('../../public/illustrations/cows.jpg')] bg-no-repeat bg-cover rounded-r-md"/>
-                    </div>
-
-                    <div className=" w-full bg-bg-white rounded-md flex" >
-                        <div className="w-1/2 p-2">
-                            <MTypography type='subtitle' variant="primary" text='Osterham' />
-                            <MTypography type='caption' text="Viggoman Plays" />
-                            <MTypography type='text' text="Osterham is a huge Minecraft project building a realistic medieval city" />
-
-                        </div>
-                        <div className="w-1/2 bg-[url('../../public/illustrations/Osterham.png')] bg-no-repeat bg-cover rounded-r-md"/>
-                    </div>
-                    
+                    </div>                    
                 </MAccordion>
                 <MAccordion label="certifications" >
                     <CertCard name="Azure Fundamentals" issuedBy="Microsoft" illustration="https://miro.medium.com/v2/resize:fit:1000/1*EnlxKqKhibp-p9fEzvfrlA.png" />
                     <CertCard name="Certified React Developer" issuedBy="W3Schools" illustration="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" />
+                    <CertCard name="Remix.JS" issuedBy="Udemy" illustration="https://blog.stackblitz.com/img/quotes/logo-remix.svg" />
 
                 </MAccordion>
 
